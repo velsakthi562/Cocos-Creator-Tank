@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Plane",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "0873368d-1d73-499b-afc3-70d6915db360"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "93f67a3f-f881-4c7f-bace-4ebdd3441be2"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "e48b4af5-b844-430b-a3e5-91caf22031e3"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "e8f42dc4-5e1d-49de-91a9-7b269e70fc34"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
