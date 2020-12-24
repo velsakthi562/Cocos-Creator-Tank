@@ -1,16 +1,16 @@
 {
-  "title": "Game",
+  "title": "Tank Attack",
   "packageName": "",
   "startScene": "30773043-fbb9-4889-80fb-0cef3e9977e0",
   "excludeScenes": [],
-  "includeSDKBox": false,
+  "includeSDKBox": true,
   "orientation": {
     "landscapeLeft": true,
     "landscapeRight": true,
     "portrait": false,
     "upsideDown": false
   },
-  "webOrientation": "auto",
+  "webOrientation": "landscape",
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "mergeStartScene": false,

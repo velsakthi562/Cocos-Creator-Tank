@@ -52,7 +52,8 @@ export default class NewClass extends cc.Component {
             if(this.life == 0)
             {
                 this.node.destroy();
-                this.node.getComponent('Game').gameOver();
+                //this.node.getComponent('Game').gameOver();
+                cc.director.loadScene("Game");
                 return;
             }
         }
@@ -62,9 +63,9 @@ export default class NewClass extends cc.Component {
 
         var manager = cc.director.getCollisionManager();
         manager.enabled = true;
-
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN,this.onKeyDown,this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP,this.onKeyUp,this);
+        cc.director.preloadScene("Game");
     }
     start () {
         this.node.parent.getComponent('Game').showLife(this.life);
